@@ -1,6 +1,7 @@
 .envoltorio {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
     gap: 5px;
     width: 550px;
 }
@@ -8,16 +9,36 @@
     background-color: rgb(51, 206, 206);
     width: 180px;
     height: 180px;
+    text-align: left;
+    line-height: 180px; /* aqui esta el truco más la diferensiación de los contenedores 1-2-3*/
+}
+.contenedor2 {
+    background-color: rgb(51, 206, 206);
+    width: 180px;
+    height: 180px;
+    text-align: center;
     line-height: 180px;
 }
 .elemento {
+    box-sizing: border-box;
+    padding-top: 10px;
+    text-align: center;
     width: 60px;
     height: 60px;
-    text-align: center;
-    padding-top: 10px;
-    box-sizing: border-box;
     background-color: antiquewhite;
 }
+.elemento-1 {
+    display: inline-block;
+    line-height: 45px;
+    vertical-align: top;
+}
 .elemento-2 {
-    
+    display: inline-block;
+    line-height: 20px;
+    vertical-align: middle;
+}
+.elemento-3 {
+    display: inline-block;
+    line-height: 20px;
+    vertical-align: bottom;
 }
