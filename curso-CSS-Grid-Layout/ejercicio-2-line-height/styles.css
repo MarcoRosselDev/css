@@ -1,7 +1,7 @@
 .envoltorio {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
+    /* grid-template-rows: repeat(3, 1fr); */
     gap: 5px;
     width: 550px;
 }
@@ -19,8 +19,15 @@
     text-align: center;
     line-height: 180px;
 }
+.contenedor3 {
+    background-color: rgb(51, 206, 206);
+    width: 180px;
+    height: 180px;
+    text-align: right;
+    line-height: 180px;
+}
 .elemento {
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
     padding-top: 10px;
     text-align: center;
     width: 60px;
@@ -38,6 +45,36 @@
     vertical-align: middle;
 }
 .elemento-3 {
+    display: inline-block;
+    line-height: 20px;
+    vertical-align: bottom;
+}
+.elemento-4 {
+    display: inline-block;
+    line-height: 20px;
+    vertical-align: top;
+}
+.elemento-5 {
+    display: inline-block;
+    line-height: 20px;
+    vertical-align: middle;
+}
+.elemento-6 {
+    display: inline-block;
+    line-height: 20px;
+    vertical-align: bottom;
+}
+.elemento-7 {
+    display: inline-block;
+    line-height: 20px;
+    vertical-align: top;
+}
+.elemento-8 {
+    display: inline-block;
+    line-height: 20px;
+    vertical-align: middle;
+}
+.elemento-9 {
     display: inline-block;
     line-height: 20px;
     vertical-align: bottom;
