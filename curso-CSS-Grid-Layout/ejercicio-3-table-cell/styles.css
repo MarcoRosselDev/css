@@ -7,3 +7,120 @@
     padding-top: 10px;
     box-sizing: border-box;
 }
+.elemento1 {
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    padding-top: 10px;
+    box-sizing: border-box;
+    background-color: pink;
+    display: inline-block;
+}
+.elemento2 {
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    padding-top: 10px;
+    box-sizing: border-box;
+    background-color: lightskyblue;
+    display: inline-block;
+}
+.elemento3 {
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    padding-top: 10px;
+    box-sizing: border-box;
+    background-color: lightgreen;
+    display: inline-block;
+}
+.contenedor1 {
+    background-color: lightseagreen;
+    border: 1px solid white;
+    width: 180px;
+    height: 180px;
+    /* esta es la parte que varia en los otros 3 contenedores, por que no me toma el @extend .contenedor para ahorrar  codigo y no repetir */
+    display: table-cell;
+    text-align: left;
+    vertical-align: top;
+}
+.contenedor2 {
+    background-color: lightseagreen;
+    border: 1px solid white;
+    width: 180px;
+    height: 180px;
+    /* esta es la parte que varia en los otros 3 contenedores, por que no me toma el @extend .contenedor para ahorrar  codigo y no repetir */
+    display: table-cell;
+    text-align: left;
+    vertical-align: middle;
+}
+.contenedor3 {
+    background-color: lightseagreen;
+    border: 1px solid white;
+    width: 180px;
+    height: 180px;
+    /* esta es la parte que varia en los otros 3 contenedores, por que no me toma el @extend .contenedor para ahorrar  codigo y no repetir */
+    display: table-cell;
+    text-align: left;
+    vertical-align: bottom;
+}
+.contenedor4 {
+    background-color: lightseagreen;
+    border: 1px solid white;
+    width: 180px;
+    height: 180px;
+    /* esta es la parte que varia en los otros 3 contenedores, por que no me toma el @extend .contenedor para ahorrar  codigo y no repetir */
+    display: table-cell;
+    text-align: center;
+    vertical-align: top;
+}
+.contenedor5 {
+    background-color: lightseagreen;
+    border: 1px solid white;
+    width: 180px;
+    height: 180px;
+    /* esta es la parte que varia en los otros 3 contenedores, por que no me toma el @extend .contenedor para ahorrar  codigo y no repetir */
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+.contenedor6 {
+    background-color: lightseagreen;
+    border: 1px solid white;
+    width: 180px;
+    height: 180px;
+    /* esta es la parte que varia en los otros 3 contenedores, por que no me toma el @extend .contenedor para ahorrar  codigo y no repetir */
+    display: table-cell;
+    text-align: center;
+    vertical-align: bottom;
+}
+.contenedor7 {
+    background-color: lightseagreen;
+    border: 1px solid white;
+    width: 180px;
+    height: 180px;
+    /* esta es la parte que varia en los otros 3 contenedores, por que no me toma el @extend .contenedor para ahorrar  codigo y no repetir */
+    display: table-cell;
+    text-align: right;
+    vertical-align: top;
+}
+.contenedor8 {
+    background-color: lightseagreen;
+    border: 1px solid white;
+    width: 180px;
+    height: 180px;
+    /* esta es la parte que varia en los otros 3 contenedores, por que no me toma el @extend .contenedor para ahorrar  codigo y no repetir */
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+}
+.contenedor9 {
+    background-color: lightseagreen;
+    border: 1px solid white;
+    width: 180px;
+    height: 180px;
+    /* esta es la parte que varia en los otros 3 contenedores, por que no me toma el @extend .contenedor para ahorrar  codigo y no repetir */
+    display: table-cell;
+    text-align: right;
+    vertical-align: bottom;
+}
