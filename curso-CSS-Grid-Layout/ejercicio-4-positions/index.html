@@ -7,7 +7,69 @@
     <title>Document</title>
     <link rel="stylesheet" href="./styles.css">
 </head>
-<body>
-    
-</body>
+    <body>
+    <!-- 
+
+técnica de positions;
+
+        nesecitamos conocer las siguientes propiedades:
+
+                -position:relative;
+                -position:absoute;
+                -top
+                -right
+                -bottom
+                -left
+                -transform:translate():
+
+                 positions
+                                 |----------------------------------------------|
+                                 |   static  |  relative  |  absolute | fixed   |
+---------------------------------|----------------------------------------------|
+posicionado de acuerdo           |     </    |      </    |     X     |    X    |
+al flujo normal                  |           |            |           |         |
+---------------------------------|----------------------------------------------| 
+su posición final la determinan  |     X     |      </    |     </    |   </    |   
+top, right, bottom, y left       |           |            |           |         |
+---------------------------------|----------------------------------------------|
+crea un nuevo contexto de        |     X     |     </     |     </    |   </    |
+apilamiento                      |           |            |           |         |
+---------------------------------|----------------------------------------------|
+
+
+
+                                 
+                                 
+
+     -->
+        <div class="envoltorio">
+            <div class="contenedor">
+                <div class="elemento1">top left</div>
+            </div>
+            <div class="contenedor">
+                <div class="elemento2">center left</div>
+            </div>
+            <div class="contenedor">
+                <div class="elemento3">bottom left</div>
+            </div>
+            <div class="contenedor">
+                <div class="elemento4"></div>
+            </div>
+            <div class="contenedor">
+                <div class="elemento5"></div>
+            </div>
+            <div class="contenedor">
+                <div class="elemento6"></div>
+            </div>
+            <div class="contenedor">
+                <div class="elemento7"></div>
+            </div>
+            <div class="contenedor">
+                <div class="elemento8"></div>
+            </div>
+            <div class="contenedor">
+                <div class="elemento9"></div>
+            </div>
+        </div>
+    </body>
 </html>
