@@ -1,4 +1,128 @@
 .envoltorio {
     display: grid;
-    
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+    width: 550px;
+}
+.contenedor {
+    background-color: burlywood;
+    width: 180px;
+    height: 180px;
+    position: relative;
+}
+.elemento1 {
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    padding-top: 10px;
+    box-sizing: border-box;
+    /* desde aqui cambia */
+    background-color: cadetblue;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.elemento2 {
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    padding-top: 10px;
+    box-sizing: border-box;
+    /* desde aqui cambia */
+    background-color: cadetblue;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+.elemento3 {
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    padding-top: 10px;
+    box-sizing: border-box;
+    /* desde aqui cambia */
+    background-color: cadetblue;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    transform: translate(0, -100%);
+}
+.elemento4 {
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    padding-top: 10px;
+    box-sizing: border-box;
+    /* desde aqui cambia */
+    background-color: cadetblue;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translate(-50%, 0);
+}
+.elemento5 {
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    padding-top: 10px;
+    box-sizing: border-box;
+    /* desde aqui cambia */
+    background-color: cadetblue;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.elemento6 {
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    padding-top: 10px;
+    box-sizing: border-box;
+    /* desde aqui cambia */
+    background-color: cadetblue;
+    position: absolute;
+    left: 50%;
+    top: 100%;
+    transform: translate(-50%, -100%);
+}
+.elemento7 {
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    padding-top: 10px;
+    box-sizing: border-box;
+    /* desde aqui cambia */
+    background-color: cadetblue;
+    position: absolute;
+    left: 100%;
+    top: 0;
+    transform: translate(-100%, 0);
+}
+.elemento8 {
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    padding-top: 10px;
+    box-sizing: border-box;
+    /* desde aqui cambia */
+    background-color: cadetblue;
+    position: absolute;
+    left: 100%;
+    top: 50%;
+    transform: translate(-100%, -50%);
+}
+.elemento9 {
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    padding-top: 10px;
+    box-sizing: border-box;
+    /* desde aqui cambia */
+    background-color: cadetblue;
+    position: absolute;
+    left: 100%;
+    top: 100%;
+    transform: translate(-100%, -100%);
 }
