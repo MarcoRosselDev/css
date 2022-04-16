@@ -1,0 +1,20 @@
+.card {
+    background-color: aquamarine;
+    width: 300px;
+    height: 150px;
+    border-radius: 10px;
+    overflow: hidden;
+    direction: rtl;   /* direccion right to left(rtl)*/
+                    /* o left to right ( ltr ) */
+    writing-mode: vertical-rl;  /* direccion horizontal o vertical*/
+}
+.card-header {
+    background-color: lightcoral;
+    height: 30px;
+    font-size: 2rem;
+}
+.card-main {
+    background-color: antiquewhite;
+    height: 45px;
+    font-size: 2rem;
+}
