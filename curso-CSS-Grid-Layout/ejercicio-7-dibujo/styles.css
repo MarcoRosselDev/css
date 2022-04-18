@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.head {
+    background-color: rgb(254, 205, 189);
+    width: 90px;
+    height: 200px;
+    border-radius: 80px;
+    position: relative;
+    /* importante relativo al papa */
+}
+.ojo-izquierdo {
+    background-color: white;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    /* absoluto al hijo */
+}
+/* ojito con el z-index */
