@@ -13,4 +13,20 @@
     text-align: center;
     padding-top: 10px;
     box-sizing: border-box;
+    /* tenia curiosidad sobre la propiedad box-sizing: border-box;
+    por que la veo y aplico pero es de las pocas que no se bien 
+    que hace.
+    
+    resulta que sirve para definir concretamente las dimenciones de
+    una caja. 
+
+    si definimos la altura de una caja y luego le agregamos un padding
+    un margin, etc... crecera la caja y ya no sabremos con exactitud
+    sus nuevas dimenciones. por lo que si aplicamos esta propiedad
+    le decimos que no se salga de las dimenciones del borde.
+
+    entonces todo lo que apliquemos se sumara hacia adentro.
+    
+    */
+    
 }
