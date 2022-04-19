@@ -523,7 +523,47 @@ tipografía;
 
 <!-- PROPIEDADES Y VALORES PADRE-->
 
-<!-- 17 CONTENEDOR -->
+<!-- 17 CONTENEDOR 
+
+¿ display-grid o display-inline-grid?
+
+display nos define si mostramos el contenido con valor INNER o OUTER 
+de display
+
+si tenemos dos div, uno con display-block
+y otro con distlay-grid         se verian igual 
+pero la diferencia esta en como se comportan los elementos
+en el interior de estos y alrededor 
+
+los valores block e inline nos van a definir dos cosas:
+                valor EXTERNO de visualización "cómo se comporta el 
+                elemento en el diseño junto con otros elementos"
+
+                valor INTERNO de visualización "cómo se comportan los 
+                hijos directos de ese elemento"
+
+cuando dices: display: grid;
+realmente dice - display; block-grid: 
+
+                "estás solicitando un contenedor grid a nivel de bloque"
+                osea le dice que por fuera sera un bloque, pero por 
+                dentro sera una grila (gird)
+
+un elemento que tenga todos los atributos de bloque puede tener:
+
+                -margin y padding
+                -width
+                -height         esto tiene relevancia cuando 
+                                trabajamos con grid o flex
+
+                sin embargo, a los hijos de un contenedr grid
+                se les da un valor interno grid
+
+siempre volvemos al flujo normal del documento, eso quiere decir
+que si tengo un texto, no nececito agregarle css para que ocupe 
+un bloque por que asi esta por defecto.
+
+-->
 
 </body>
 </html>
