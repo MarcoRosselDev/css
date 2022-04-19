@@ -564,6 +564,31 @@ que si tengo un texto, no nececito agregarle css para que ocupe
 un bloque por que asi esta por defecto.
 
 -->
+<!-- 18 CREANDO FILAS, COLUMNAS Y ESPACIADO
 
+propiedades 
+        grid-template-columns: repeat(3, 1fr o 20px);
+        grid-template-rows: repeat(5, 1fr);
+
+        TODO EN UNA SOLA LINEA DE CODIGO
+
+        grid-template: repeat(3, 1fr)/ repeat(4, 1fr);
+                          |                    |
+                        FILAS        |     COLUMNAS
+
+        gap: 5px 5px;   espaciado en una sola linea
+
+AREAS
+
+        display: grid;
+        grid-template: repeat... / repeat...;
+        grid-template-area:
+        "header header header nav"
+        "header header header nav"
+        "header header header nav"
+        ;                               luego le asigno los valores en 
+                                        las clases que corespondan con 
+                                        grid-area: header o nav;
+-->
 </body>
 </html>
