@@ -618,6 +618,37 @@ lo que dice es que si llega otro elemento le dara esa dimencion de clumna "ancho
 grid-auto-flow   |  genera automaticamente lo que queramos en un futuro.
 
 -->
+<!-- 21-FUNCIONES:REPEAT(),MINMAX(),FIT-CONTENT()
+
+repear / ya lo se ocupar
+
+minmax:
+        si estiramos el navegador, empezamos a ver la card mal
+        para eso ocupamos minmax, primero va la dimención minima
+        luego separado por una coma va el maximo.  ejemplo
+
+                grid-template-columns: repeat(3, minmax(200px, 300px));
+
+                esto dice que repita esto 3 veces con  un minimos de 
+                200px y maximo de 300, lo que se modifica si el 
+                navegador se agranda.
+
+auto-fit / auto-fill:
+        auto-fit tomara los elementos y los esparcira por todo el 
+        navegador . si modifica los elementos base.
+
+        auto-fill  reserva el espacio sobrante para posibles nuevas
+        columnas. no modifica los elementos base.
+
+        fit-content() organiza un contenido fijo y el resto seria 
+        automatico, ejemplo
+
+                gird-template-columns: auto fit-content(400px) auto;
+
+                esto dejaria fijo los 400px y al modificar el nav
+                los vordes que son auto se contraeran o estiraran.
+
+-->
 
 
 </body>
