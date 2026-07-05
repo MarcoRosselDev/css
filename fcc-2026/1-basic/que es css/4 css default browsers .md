@@ -56,3 +56,45 @@ Veamos un ejemplo:
 <p>Paragraph 3</p>
 <p>Paragraph 4</p>
 ```
+En el ejemplo anterior, el elemento blockquote producirá una sangría en el texto, 
+aplicada por los estilos predeterminados del navegador. 
+---
+Otro elemento con estilos predeterminados es el elemento de anclaje `(<a>)`, 
+que tiene un color azul predeterminado y está subrayado para que se reconozca como un enlace. 
+Veamos el siguiente ejemplo HTML.
+```html
+<p>Paragraph 1</p>
+<p>Paragraph 2</p>
+<a href="https://freecodecamp.org/">Visit the freeCodeCamp learn page</a>
+<p>Paragraph 3</p>
+<p>Paragraph 4</p>
+```
+El código anterior tiene cuatro elementos de párrafo con un elemento de anclaje en el medio. 
+El elemento de anclaje está estilizado en azul con un subrayado para indicar 
+a los usuarios que vayan a la página de aprendizaje de freeCodeCamp.
+--- 
+Finalmente, veremos los elementos de lista desordenada y ordenada. 
+Los navegadores añaden formato básico a las listas, 
+incluyendo sangría y viñetas o números, 
+dependiendo de si se trata de una lista desordenada (ul) o una lista ordenada (ol).
+Veamos un ejemplo.
+```html
+<p>Sample Paragraph</p>
+<ol>
+  <li>item 1</li>
+  <li>item 2</li>
+  <li>item 3</li>
+</ol>
+<ul>
+  <li>item</li>
+  <li>another item</li>
+  <li>yet another item</li>
+</ul>
+<p>Ending Paragraph</p>
+```
+En el ejemplo de código anterior, estamos usando una lista desordenada y una lista ordenada. 
+Ambas listas tendrán una ligera sangría a la derecha por defecto. 
+En todos estos ejemplos, viste cómo el navegador aplicó espaciado predeterminado, 
+diferentes tamaños de fuente y grosores a estos elementos HTML. 
+
+En lecciones posteriores, aprenderás cómo restablecer algunos de estos estilos predeterminados usando un restablecimiento de CSS.
