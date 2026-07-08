@@ -1,13 +1,13 @@
 <head>
   <style>
     p {
-      color: blue;
+  color: blue;
+    }
+    p {
+      color: green; 
     }
   </style>
 </head>
 <body>
-  <p style="color: red;">Red paragraph</p>
-  <p>Other paragraph</p>
-  <p>Another paragraph</p>
-  <p>Yet another paragraph</p>
+  <p>example paragraph</p>
 </body>
