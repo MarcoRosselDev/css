@@ -1,0 +1,55 @@
+* {
+  padding: 0;
+  margin: 0 auto;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  min-width: 400px;
+}
+
+ul {
+  list-style: none;
+  padding: 5px;
+}
+.item {
+  border: 1px solid rgb(97, 199, 242);
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 10px;
+  background-color: rgb(209, 234, 243);
+}
+
+.sub-item {
+  list-style-type: square;
+  list-style-position: inside;
+}
+
+a {
+  color: rgb(17, 17, 245);
+  text-decoration: none;
+}
+a:link {
+  color: rgb(17, 17, 245);
+  text-decoration: none;
+}
+
+
+a:visited {
+  color: rgb(121, 4, 121);
+}
+
+a:hover {
+  color: red;
+}
+
+a:focus {
+  outline: 2px solid orangered;
+}
+a:active {
+  color: pink;
+}
