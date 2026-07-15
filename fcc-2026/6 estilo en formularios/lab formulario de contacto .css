@@ -1,0 +1,41 @@
+body{
+  background-color: rgb(2, 2, 88);
+  display:flex;
+  justify-content:center;
+}
+.form-container{
+  border-radius: 5px;
+  background-color: navy;
+  color: white;
+  border: 1px solid whitesmoke;
+  padding: 14px;
+  width: 100%;
+  max-width: 500px;
+}
+label{
+  font-family: sans-serif;
+  color: whitesmoke;
+  margin: 10px;
+  display: block;
+}
+input, textarea{
+  padding:3px;
+  width: 100%;
+  margin:0 auto;
+}
+
+button{
+  display: block;
+  width: 80%;
+  margin: auto;
+  background-color: rgb(11, 107, 11);
+  color: whitesmoke;
+  font-size: 1.1rem;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid whitesmoke;
+}
+
+button:hover{
+  background-color: rgb(1, 43, 1);
+}

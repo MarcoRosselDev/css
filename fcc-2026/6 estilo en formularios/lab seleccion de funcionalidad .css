@@ -1,0 +1,8 @@
+label {
+    display:flex;
+    border: 2px solid red;
+    padding: 20px;
+    border-radius: 5px;
+    width: 200px;
+}
+
