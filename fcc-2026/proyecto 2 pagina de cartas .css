@@ -1,0 +1,66 @@
+* {
+  padding: 0;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+#playing-cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 5px;
+  border: 2px solid gray;
+  gap: 20px;
+  max-width: 600px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 120px;
+  height: 190px;
+  justify-content: space-between;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+  box-shadow: 0 0 3px 3px gray;
+}
+
+.left {
+  align-self: flex-start;
+  width: 100%;
+}
+
+.middle {
+  display:flex;
+  gap: 10px;
+  font-size: 1.4rem;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 70%;
+  max-height: 40%;
+}
+
+.right {
+  align-self: flex-end;
+  width: 100%;
+  text-align: right;
+}
+p{
+  margin: 0  5px ;
+}
+
+.hard, .diamont{
+  color: red;
+}
+.trebol, .hojas{
+  color: black;
+}
+
+.card:hover{
+  transition: ease;
+  box-shadow: 0 0 4px 4px goldenrod;
+  transform: scale(1.1, 1.1);
+}
