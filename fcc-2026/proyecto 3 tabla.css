@@ -1,0 +1,115 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0 auto;
+  font-family: serif, Arial;
+}
+
+tr[class="read"]{
+  background: linear-gradient(rgb(54, 144, 21) 50%, rgb(63, 198, 13) 100%);
+  color: whitesmoke;
+}
+tr[class="to-read"]{
+  background: linear-gradient(rgb(7, 7, 7) 50%, rgb(82, 82, 82) 100%);
+  color: whitesmoke;
+}
+tr[class="in-progress"]{
+  background: linear-gradient(rgb(70, 49, 0) 50%, rgb(135, 113, 1) 100%);
+  color: whitesmoke;
+}
+
+span{
+  display: inline-block;
+}
+
+tr[class="to-read"]  span[class="status"]{
+  border: 1px solid blue;
+  background: linear-gradient(red, green);
+}
+
+tr[class="read"]  span[class="status"]{
+  border: 1px solid blue;
+  background: linear-gradient(red, green);
+}
+tr[class="to-read"]  span[class="to-read"]{
+  border: 1px;
+}
+
+tr[class="in-progress"]  span[class="status"]{
+  border: 1px solid blue;
+  background: linear-gradient(red, green);
+}
+
+span[class="status"], span[class^="rate"]{
+  width: 40px;
+  height: 40px;
+  padding: 4px;
+}
+
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0 auto;
+  font-family: serif, Arial;
+}
+
+tr[class="read"]{
+  background: linear-gradient(rgb(54, 144, 21) 50%, rgb(63, 198, 13) 100%);
+  color: whitesmoke;
+}
+tr[class="to-read"]{
+  background: linear-gradient(rgb(7, 7, 7) 50%, rgb(82, 82, 82) 100%);
+  color: whitesmoke;
+}
+tr[class="in-progress"]{
+  background: linear-gradient(rgb(70, 49, 0) 50%, rgb(135, 113, 1) 100%);
+  color: whitesmoke;
+}
+
+span{
+  display: inline-block;
+}
+
+tr[class="to-read"]  span[class="status"]{
+  border: 1px solid blue;
+  background: linear-gradient(red, green);
+}
+
+tr[class="read"]  span[class="status"]{
+  border: 1px solid blue;
+  background: linear-gradient(red, green);
+}
+tr[class="to-read"]  span[class="to-read"]{
+  border: 1px;
+}
+
+tr[class="in-progress"]  span[class="status"]{
+  border: 1px solid blue;
+  background: linear-gradient(red, green);
+}
+
+span[class="status"], span[class="rate"]{
+  width: 40px;
+  height: 40px;
+  padding: 4px;
+}
+
+span[class^="rate"] > span{
+  border: 1px solid pink;
+  border-radius: 45%;
+  margin: 7px;
+  height: 8px;
+  width: 8px;
+  background-color: yellow;
+}
+
+span[class~='one'] > span:first-of-type{
+  background: linear-gradient(gold, lightblue);  
+}
+span[class~='two'] > span:nth-child(-n+2){
+  background: linear-gradient(gold, lightblue);  
+}
+
+span[class~='three'] > span{
+  background: linear-gradient(gold, lightblue);  
+}
